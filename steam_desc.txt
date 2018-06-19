@@ -1,9 +1,21 @@
-This mod adds four new storytellers to the game to extend the vanilla storytellers. It also adds extra difficulties above just increasing raid-size with the goal to create new challenges and gameplay experience.
+[b]New difficulties with a bunch of custom attributes to create new challenges and unique gameplay experiences![/b]
+
+[b]Four new improved storytellers, each one unique in their own style![/b]
 
 These storytellers are meant to enhance your Rimworld experience, in general by improving the threat cycles and story event triggers. You will get more events compared to the equivalent vanilla storyteller, but no meme-guy trowing something like 10 events a day at you. Choose between Calista Complex, Raya Relaxed, Matt Moody or Nora Nothing, depending on whether you like to chill or suffer. Compared to vanilla, these storytellers have a way more complex threat cycle, which add a greater variety of stuff that can happen and makes them sometimes less predictable. Each of them has his/her own style which you can see in the name and description.
 
+[h1]New difficulties[/h1]
+
+[b]Murderous[/b]
+Enemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer.
+
+[b]Post-Apocalyptic[/b]
+The main challenge comes from very few resources on top of a number if enemies trying to steal the bit of food you could get.
+
+[b]Spoiled Life[/b]
+Pawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy.
+
 [h1]New storyteller[/h1]
-[b]New custom portrait images are coming soon![/b]
 
 [b]Calista Complex[/b]
 Calista creates story events on a more complex schedule. She likes to see how you can handle different situations. Expect the unexpected.
@@ -16,14 +28,3 @@ Matt is famous for his mood swings. You will have a good time with balanced even
 
 [b]Nora Nothing[/b]
 Nora doesn't give much about telling a story, she won't make any incidents and just watches you playing. Use her if you want to write your own story or for a slightly different challenge in remote regions.
-
-[h1]New difficulties[/h1]
-
-[b]Murderous[/b]
-Enemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer.
-
-[b]Post-Apocalyptic[/b]
-The main challenge comes from very few resources on top of a number if enemies trying to steal the bit of food you could get.
-
-[b]Spoiled Life[/b]
-Pawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy.
