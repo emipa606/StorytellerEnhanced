@@ -20,6 +20,12 @@ Matt is famous for his mood swings. You will have a good time with balanced even
 Nora doesn't give much about telling a story, she won't make any incidents and just watches you playing. Use her if you want to write your own story or for a slightly different challenge in remote regions.
 
 ## New difficulties
-- Murderous (Enemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer.)
-- Post-Apocalyptic (The main challenge comes from very few resources on top of a number if enemies trying to steal the bit of food you could get.)
-- Spoiled Life (Pawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy.)
+
+#### Murderous
+Enemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer.
+
+#### Post-Apocalyptic
+The main challenge comes from very few resources on top of a number if enemies trying to steal the bit of food you could get.
+
+#### Spoiled Life
+Pawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy.
