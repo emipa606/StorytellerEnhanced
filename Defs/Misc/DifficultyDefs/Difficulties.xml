@@ -8,7 +8,7 @@
 		<difficulty>6</difficulty>
 		<threatScale>3</threatScale>
 		<colonistMoodOffset>-15</colonistMoodOffset>
-		<tradePriceFactorLoss>0.30</tradePriceFactorLoss>
+		<tradePriceFactorLoss>0.20</tradePriceFactorLoss>
 		<cropYieldFactor>0.9</cropYieldFactor>
 		<diseaseIntervalFactor>0.9</diseaseIntervalFactor>
 		<enemyReproductionRateFactor>1.5</enemyReproductionRateFactor>
@@ -34,7 +34,7 @@
 		<difficulty>7</difficulty>
 		<threatScale>1.5</threatScale>
 		<colonistMoodOffset>-15</colonistMoodOffset>
-		<tradePriceFactorLoss>0.15</tradePriceFactorLoss>
+		<tradePriceFactorLoss>0.10</tradePriceFactorLoss>
 		<cropYieldFactor>0.5</cropYieldFactor>
 		<diseaseIntervalFactor>2.0</diseaseIntervalFactor>
 		<playerPawnInfectionChanceFactor>1.6</playerPawnInfectionChanceFactor>

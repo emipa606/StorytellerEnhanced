@@ -22,7 +22,7 @@
       <li Class="StorytellerCompProperties_ClassicIntro"/>
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>5</minDaysPassed>
-        <mtbDaysThreatSmall>4.73</mtbDaysThreatSmall>
+        <mtbDaysThreatSmall>4.90</mtbDaysThreatSmall>
         <mtbDaysThreatBig>1.45</mtbDaysThreatBig>
         <threatOffDays>6.0</threatOffDays>
         <threatOnDays>4.6</threatOnDays>
@@ -38,7 +38,7 @@
       </li>
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>11</minDaysPassed>
-        <mtbDaysThreatSmall>14.2</mtbDaysThreatSmall>
+        <mtbDaysThreatSmall>16.65</mtbDaysThreatSmall>
         <mtbDaysThreatBig>7.40</mtbDaysThreatBig>
         <threatOffDays>2.0</threatOffDays>
         <threatOnDays>10.0</threatOnDays>
@@ -46,7 +46,7 @@
       </li>
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>19</minDaysPassed>
-        <mtbDaysThreatSmall>6.9</mtbDaysThreatSmall>
+        <mtbDaysThreatSmall>7.2</mtbDaysThreatSmall>
         <mtbDaysThreatBig>0.55</mtbDaysThreatBig>
         <threatOffDays>13.3</threatOffDays>
         <threatOnDays>2.0</threatOnDays>
@@ -199,7 +199,7 @@
 	  <li Class="StorytellerCompProperties_ClassicIntro"/>
 	  <li Class="StorytellerCompProperties_ThreatCycle">
 		<minDaysPassed>12</minDaysPassed>
-		<mtbDaysThreatSmall>8</mtbDaysThreatSmall>
+		<mtbDaysThreatSmall>8.7</mtbDaysThreatSmall>
 		<mtbDaysThreatBig>2.5</mtbDaysThreatBig>
 		<threatOffDays>8.0</threatOffDays>
 		<threatOnDays>11.0</threatOnDays>
@@ -333,7 +333,7 @@
       <li Class="StorytellerCompProperties_ClassicIntro"/>
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>3</minDaysPassed>
-        <mtbDaysThreatSmall>4.5</mtbDaysThreatSmall>
+        <mtbDaysThreatSmall>4.85</mtbDaysThreatSmall>
         <mtbDaysThreatBig>2.6</mtbDaysThreatBig>
         <threatOffDays>5.7</threatOffDays>
         <threatOnDays>4.8</threatOnDays>
@@ -341,7 +341,7 @@
       </li>
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>10</minDaysPassed>
-        <mtbDaysThreatSmall>3.2</mtbDaysThreatSmall>
+        <mtbDaysThreatSmall>3.65</mtbDaysThreatSmall>
         <mtbDaysThreatBig>0.5</mtbDaysThreatBig>
         <threatOffDays>11.0</threatOffDays>
         <threatOnDays>2.0</threatOnDays>
@@ -349,7 +349,7 @@
       </li>
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>23</minDaysPassed>
-        <mtbDaysThreatSmall>7.5</mtbDaysThreatSmall>
+        <mtbDaysThreatSmall>7.8</mtbDaysThreatSmall>
         <mtbDaysThreatBig>0.4</mtbDaysThreatBig>
         <threatOffDays>11.0</threatOffDays>
         <threatOnDays>2.0</threatOnDays>
@@ -357,7 +357,7 @@
       </li>
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>36</minDaysPassed>
-        <mtbDaysThreatSmall>18.0</mtbDaysThreatSmall>
+        <mtbDaysThreatSmall>18.7</mtbDaysThreatSmall>
         <mtbDaysThreatBig>0.9</mtbDaysThreatBig>
         <threatOffDays>11.0</threatOffDays>
         <threatOnDays>2.0</threatOnDays>
