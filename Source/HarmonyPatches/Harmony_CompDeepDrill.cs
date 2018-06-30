@@ -12,8 +12,8 @@ namespace StorytellerEnhanced
 {
 
     [HarmonyPatch(typeof(CompDeepDrill))]
-    [HarmonyPatch("TryProduceLump")]
-    public class Harmony_CompDeepDrill_TryProduceLump
+    [HarmonyPatch("TryProducePortion")]
+    public class Harmony_CompDeepDrill_TryProducePortion
     {
 
         public static void Prefix(ref float yieldPct)
