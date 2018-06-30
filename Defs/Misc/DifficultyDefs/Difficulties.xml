@@ -15,6 +15,7 @@
 		<playerPawnInfectionChanceFactor>1.2</playerPawnInfectionChanceFactor>
 		<manhunterChanceOnDamageFactor>1.8</manhunterChanceOnDamageFactor>
 		<deepDrillInfestationChanceFactor>1.6</deepDrillInfestationChanceFactor>
+		<foodPoisonChanceFactor>1.1</foodPoisonChanceFactor>
 		<modExtensions>
 			<li Class="StorytellerEnhanced.ModExt_Difficulty">
 				<butcherProductFactor>0.9</butcherProductFactor>
@@ -40,6 +41,7 @@
 		<playerPawnInfectionChanceFactor>1.6</playerPawnInfectionChanceFactor>
 		<manhunterChanceOnDamageFactor>1.2</manhunterChanceOnDamageFactor>
 		<deepDrillInfestationChanceFactor>1.3</deepDrillInfestationChanceFactor>
+		<foodPoisonChanceFactor>1.3</foodPoisonChanceFactor>
 		<modExtensions>
 			<li Class="StorytellerEnhanced.ModExt_Difficulty">
 				<butcherProductFactor>0.5</butcherProductFactor>
@@ -63,6 +65,7 @@
 		<cropYieldFactor>0.9</cropYieldFactor>
 		<diseaseIntervalFactor>1.4</diseaseIntervalFactor>
 		<playerPawnInfectionChanceFactor>1.1</playerPawnInfectionChanceFactor>
+		<foodPoisonChanceFactor>1.3</foodPoisonChanceFactor>
 		<modExtensions>
 			<li Class="StorytellerEnhanced.ModExt_Difficulty">
 				<workSpeedGlobalFactor>0.7</workSpeedGlobalFactor>
