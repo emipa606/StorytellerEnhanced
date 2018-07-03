@@ -13,7 +13,6 @@ namespace StorytellerEnhanced
         public float workSpeedGlobalFactor = 1f;
 
         public float butcherProductFactor = 1f;
-        public float miningYieldFactor = 1f;
 
         public float moodImpactFactorNegative = 1f;
         public float moodImpactFactorPositive = 1f;
