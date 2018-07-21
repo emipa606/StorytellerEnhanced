@@ -8,16 +8,6 @@
     <portraitLarge>UI/HeroArt/Storytellers/CalistaComplex</portraitLarge>
     <portraitTiny>UI/HeroArt/Storytellers/CalistaComplexTiny</portraitTiny>
     <listOrder>46</listOrder>
-	<populationIntentFromPopCurve>
-	  <points>
-		<li>0, 8</li>
-		<li>1, 4</li>
-		<li>5, 1</li>
-		<li>9, 0.5</li>
-		<li>13, 0</li>
-		<li>18, -1</li>
-	  </points>
-	</populationIntentFromPopCurve>
     <comps>
       <li Class="StorytellerCompProperties_ClassicIntro"/>
       <li Class="StorytellerCompProperties_ThreatCycle">
@@ -185,16 +175,6 @@
 	<portraitLarge>UI/HeroArt/Storytellers/RayaRelaxed</portraitLarge>
 	<portraitTiny>UI/HeroArt/Storytellers/RayaRelaxedTiny</portraitTiny>
 	<listOrder>47</listOrder>
-	<populationIntentFromPopCurve>
-	  <points>
-		<li>0, 8</li>
-		<li>1, 4</li>
-		<li>5, 1</li>
-		<li>9, 0.5</li>
-		<li>13, 0</li>
-		<li>18, -1</li>
-	  </points>
-	</populationIntentFromPopCurve>
 	<comps>
 	  <li Class="StorytellerCompProperties_ClassicIntro"/>
 	  <li Class="StorytellerCompProperties_ThreatCycle">
@@ -319,16 +299,6 @@
 	<portraitLarge>UI/HeroArt/Storytellers/MattMoody</portraitLarge>
 	<portraitTiny>UI/HeroArt/Storytellers/MattMoodyTiny</portraitTiny>
 	<listOrder>48</listOrder>
-	<populationIntentFromPopCurve>
-	  <points>
-		<li>0, 8</li>
-		<li>1, 4</li>
-		<li>5, 1</li>
-		<li>9, 0.5</li>
-		<li>13, 0</li>
-		<li>18, -1</li>
-	  </points>
-	</populationIntentFromPopCurve>
     <comps>
       <li Class="StorytellerCompProperties_ClassicIntro"/>
       <li Class="StorytellerCompProperties_ThreatCycle">
@@ -513,16 +483,6 @@
     <portraitLarge>UI/HeroArt/Storytellers/NoraNothing</portraitLarge>
     <portraitTiny>UI/HeroArt/Storytellers/NoraNothingTiny</portraitTiny>
     <listOrder>49</listOrder>
-	<populationIntentFromPopCurve>
-	  <points>
-		<li>0, 8</li>
-		<li>1, 4</li>
-		<li>5, 1</li>
-		<li>9, 0.5</li>
-		<li>13, 0</li>
-		<li>18, -1</li>
-	  </points>
-	</populationIntentFromPopCurve>
     <comps>
       <li Class="StorytellerCompProperties_ClassicIntro"/>
       <li Class="StorytellerCompProperties_SingleMTB">
