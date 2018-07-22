@@ -10,47 +10,81 @@
     <listOrder>46</listOrder>
     <comps>
       <li Class="StorytellerCompProperties_ClassicIntro"/>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>5</minDaysPassed>
-        <mtbDaysThreatSmall>4.90</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>1.45</mtbDaysThreatBig>
-        <threatOffDays>6.0</threatOffDays>
-        <threatOnDays>4.6</threatOnDays>
-        <minDaysBetweenThreatBigs>2.1</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatBig</incidentCategory>
+        <minDaysPassed>7.0</minDaysPassed>
+        <onDays>4.6</onDays>
+        <offDays>6.0</offDays>
+        <numIncidentsRange>1~2</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
+        <disallowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTypes>
       </li>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>23</minDaysPassed>
-        <mtbDaysThreatSmall>21.85</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>1.60</mtbDaysThreatBig>
-        <threatOffDays>7.3</threatOffDays>
-        <threatOnDays>5.5</threatOnDays>
-        <minDaysBetweenThreatBigs>2.6</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatBig</incidentCategory>
+        <minDaysPassed>23.0</minDaysPassed>
+        <onDays>5.5</onDays>
+        <offDays>7.3</offDays>
+        <numIncidentsRange>0.9~1.8</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>47</forceRaidEnemyBeforeDaysPassed>
+        <disallowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTypes>
       </li>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>11</minDaysPassed>
-        <mtbDaysThreatSmall>16.65</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>7.40</mtbDaysThreatBig>
-        <threatOffDays>2.0</threatOffDays>
-        <threatOnDays>10.0</threatOnDays>
-        <minDaysBetweenThreatBigs>5.0</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatBig</incidentCategory>
+        <minDaysPassed>11.0</minDaysPassed>
+        <onDays>10.0</onDays>
+        <offDays>2.0</offDays>
+        <numIncidentsRange>0.3~1</numIncidentsRange>
+        <disallowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTypes>
       </li>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>19</minDaysPassed>
-        <mtbDaysThreatSmall>7.2</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>0.55</mtbDaysThreatBig>
-        <threatOffDays>13.3</threatOffDays>
-        <threatOnDays>2.0</threatOnDays>
-        <minDaysBetweenThreatBigs>0.4</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatBig</incidentCategory>
+        <minDaysPassed>19.0</minDaysPassed>
+        <onDays>2.0</onDays>
+        <offDays>13.3</offDays>
+        <numIncidentsRange>1~4</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>52</forceRaidEnemyBeforeDaysPassed>
+        <disallowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTypes>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatSmall</incidentCategory>
+        <minDaysPassed>6.0</minDaysPassed>
+        <onDays>4.6</onDays>
+        <offDays>6.0</offDays>
+        <numIncidentsRange>1~1.4</numIncidentsRange>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatSmall</incidentCategory>
+        <minDaysPassed>11.0</minDaysPassed>
+        <onDays>10.0</onDays>
+        <offDays>2.0</offDays>
+        <numIncidentsRange>0.5~1.2</numIncidentsRange>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatSmall</incidentCategory>
+        <minDaysPassed>19.0</minDaysPassed>
+        <onDays>2.6</onDays>
+        <offDays>13.4</offDays>
+        <numIncidentsRange>0.5~1.1</numIncidentsRange>
       </li>
       <li Class="StorytellerCompProperties_RandomMain">
         <allowedTargetTypes>
           <li>Map_PlayerHome</li>
         </allowedTargetTypes>
-		<minDaysPassed>3.5</minDaysPassed>
+        <minDaysPassed>2.5</minDaysPassed>
         <mtbDays>8.35</mtbDays>
         <maxThreatBigIntervalDays>22</maxThreatBigIntervalDays>
-		<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
-		<categoryWeights>
+        <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+        <randomPointsFactorRange>0.5~1.5</randomPointsFactorRange>
+        <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
+        <categoryWeights>
           <Misc>3.5</Misc>
           <OrbitalVisitor>1</OrbitalVisitor>
 		  <ThreatBig>1</ThreatBig>
@@ -60,19 +94,19 @@
         </categoryWeights>
       </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
+        <category>Misc</category>
 		<allowedTargetTypes>
           <li>Map_PlayerHome</li>
         </allowedTargetTypes>
 		<minDaysPassed>5</minDaysPassed>
-        <category>Misc</category>
 		<mtbDays>3.0</mtbDays>
 	  </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
+        <category>Misc</category>
 		<allowedTargetTypes>
           <li>Map_PlayerHome</li>
         </allowedTargetTypes>
 		<minDaysPassed>9</minDaysPassed>
-        <category>Misc</category>
 		<mtbDays>7.3</mtbDays>
 	  </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
@@ -90,27 +124,27 @@
         </mtbDaysFactorByDaysPassedCurve>
       </li>
 	  <li Class="StorytellerCompProperties_CategoryMTB">
+		<category>Misc</category>
 		<allowedTargetTypes>
 		  <li>World</li>
 		</allowedTargetTypes>
 		<minDaysPassed>12</minDaysPassed>
-		<category>Misc</category>
 		<mtbDays>6</mtbDays>
 	  </li>
 	  <li Class="StorytellerCompProperties_CategoryMTB">
+		<category>Misc</category>
 		<allowedTargetTypes>
 		  <li>World</li>
 		</allowedTargetTypes>
 		<minDaysPassed>17</minDaysPassed>
-		<category>Misc</category>
 		<mtbDays>10.3</mtbDays>
 	  </li>
       <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+        <category>Misc</category>
         <allowedTargetTypes>
           <li>Caravan</li>
           <li>Map_TempIncident</li>
         </allowedTargetTypes>
-        <category>Misc</category>
       </li>
       <li Class="StorytellerCompProperties_FactionInteraction">
         <minDaysPassed>5</minDaysPassed>
@@ -152,18 +186,15 @@
         <applyCaravanVisibility>true</applyCaravanVisibility>
       </li>
       <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_ThreatCycle">
+      <li Class="StorytellerCompProperties_OnOffCycle">
         <allowedTargetTypes>
           <li>Map_RaidBeacon</li>
         </allowedTargetTypes>
-        <threatOffDays>0.8</threatOffDays>
-        <threatOnDays>0.6</threatOnDays>
-        <minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
-        <minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
-        <mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>  <!-- effectively disabled -->
-        <mtbDaysThreatBig>0.3</mtbDaysThreatBig>
-        <threatSmallCategory>RaidBeacon</threatSmallCategory>
-        <threatBigCategory>RaidBeacon</threatBigCategory>
+        <offDays>0.5</offDays>
+        <onDays>1.0</onDays>
+        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
+        <numIncidentsRange>1~2</numIncidentsRange>
+        <incidentCategory>RaidBeacon</incidentCategory>
       </li>
     </comps>
   </StorytellerDef>
@@ -177,14 +208,24 @@
 	<listOrder>47</listOrder>
 	<comps>
 	  <li Class="StorytellerCompProperties_ClassicIntro"/>
-	  <li Class="StorytellerCompProperties_ThreatCycle">
-		<minDaysPassed>12</minDaysPassed>
-		<mtbDaysThreatSmall>8.7</mtbDaysThreatSmall>
-		<mtbDaysThreatBig>2.5</mtbDaysThreatBig>
-		<threatOffDays>8.0</threatOffDays>
-		<threatOnDays>11.0</threatOnDays>
-		<minDaysBetweenThreatBigs>9.0</minDaysBetweenThreatBigs>
-	  </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatBig</incidentCategory>
+        <minDaysPassed>12.0</minDaysPassed>
+        <onDays>11.0</onDays>
+        <offDays>8.0</offDays>
+        <numIncidentsRange>0.9~1.1</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>30</forceRaidEnemyBeforeDaysPassed>
+        <disallowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTypes>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatSmall</incidentCategory>
+        <minDaysPassed>12.0</minDaysPassed>
+        <onDays>11.0</onDays>
+        <offDays>8.0</offDays>
+        <numIncidentsRange>1~1.4</numIncidentsRange>
+      </li>
 	  <li Class="StorytellerCompProperties_RandomMain">
 		<allowedTargetTypes>
 		  <li>Map_PlayerHome</li>
@@ -193,6 +234,8 @@
 		<mtbDays>1.2</mtbDays>
 		<maxThreatBigIntervalDays>50</maxThreatBigIntervalDays>
 		<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+        <randomPointsFactorRange>0.5~1.5</randomPointsFactorRange>
+        <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
 		<categoryWeights>
 		  <Misc>6.0</Misc>
 		  <OrbitalVisitor>1.5</OrbitalVisitor>
@@ -276,19 +319,16 @@
 		<applyCaravanVisibility>true</applyCaravanVisibility>
 	  </li>
 	  <li Class="StorytellerCompProperties_JourneyOffer"/>
-	  <li Class="StorytellerCompProperties_ThreatCycle">
-		<allowedTargetTypes>
-		  <li>Map_RaidBeacon</li>
-		</allowedTargetTypes>
-		<threatOffDays>0.8</threatOffDays>
-		<threatOnDays>0.6</threatOnDays>
-		<minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
-		<minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
-		<mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>  <!-- effectively disabled -->
-		<mtbDaysThreatBig>0.3</mtbDaysThreatBig>
-		<threatSmallCategory>RaidBeacon</threatSmallCategory>
-		<threatBigCategory>RaidBeacon</threatBigCategory>
-	  </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <allowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </allowedTargetTypes>
+        <offDays>0.5</offDays>
+        <onDays>1.0</onDays>
+        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
+        <numIncidentsRange>1~2</numIncidentsRange>
+        <incidentCategory>RaidBeacon</incidentCategory>
+      </li>
 	</comps>
   </StorytellerDef>
 
@@ -301,37 +341,41 @@
 	<listOrder>48</listOrder>
     <comps>
       <li Class="StorytellerCompProperties_ClassicIntro"/>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>3</minDaysPassed>
-        <mtbDaysThreatSmall>4.85</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>2.6</mtbDaysThreatBig>
-        <threatOffDays>5.7</threatOffDays>
-        <threatOnDays>4.8</threatOnDays>
-        <minDaysBetweenThreatBigs>3.5</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatBig</incidentCategory>
+        <minDaysPassed>4.0</minDaysPassed>
+        <onDays>4.8</onDays>
+        <offDays>5.7</offDays>
+        <numIncidentsRange>0.8~1.3</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>24</forceRaidEnemyBeforeDaysPassed>
+        <disallowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTypes>
       </li>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>10</minDaysPassed>
-        <mtbDaysThreatSmall>3.65</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>0.5</mtbDaysThreatBig>
-        <threatOffDays>11.0</threatOffDays>
-        <threatOnDays>2.0</threatOnDays>
-        <minDaysBetweenThreatBigs>0.4</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatBig</incidentCategory>
+        <minDaysPassed>13.0</minDaysPassed>
+        <onDays>6.2</onDays>
+        <offDays>10.1</offDays>
+        <numIncidentsRange>0.2~1</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>31</forceRaidEnemyBeforeDaysPassed>
+        <disallowedTargetTypes>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTypes>
       </li>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>23</minDaysPassed>
-        <mtbDaysThreatSmall>7.8</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>0.4</mtbDaysThreatBig>
-        <threatOffDays>11.0</threatOffDays>
-        <threatOnDays>2.0</threatOnDays>
-        <minDaysBetweenThreatBigs>0.4</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatSmall</incidentCategory>
+        <minDaysPassed>4.0</minDaysPassed>
+        <onDays>4.8</onDays>
+        <offDays>5.7</offDays>
+        <numIncidentsRange>0.8~1.5</numIncidentsRange>
       </li>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <minDaysPassed>36</minDaysPassed>
-        <mtbDaysThreatSmall>18.7</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>0.9</mtbDaysThreatBig>
-        <threatOffDays>11.0</threatOffDays>
-        <threatOnDays>2.0</threatOnDays>
-        <minDaysBetweenThreatBigs>0.4</minDaysBetweenThreatBigs>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incidentCategory>ThreatSmall</incidentCategory>
+        <minDaysPassed>13.0</minDaysPassed>
+        <onDays>5.8</onDays>
+        <offDays>9.9</offDays>
+        <numIncidentsRange>0.7~1.9</numIncidentsRange>
       </li>
       <li Class="StorytellerCompProperties_RandomMain">
         <allowedTargetTypes>
@@ -341,6 +385,8 @@
         <mtbDays>2.2</mtbDays>
         <maxThreatBigIntervalDays>36</maxThreatBigIntervalDays>
 		<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+        <randomPointsFactorRange>0.5~1.5</randomPointsFactorRange>
+        <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
 		<categoryWeights>
           <Misc>6.5</Misc>
           <OrbitalVisitor>0.3</OrbitalVisitor>
@@ -358,6 +404,8 @@
         <mtbDays>5.1</mtbDays>
         <maxThreatBigIntervalDays>17</maxThreatBigIntervalDays>
 		<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+        <randomPointsFactorRange>0.5~1.5</randomPointsFactorRange>
+        <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
 		<categoryWeights>
           <Misc>2.5</Misc>
           <OrbitalVisitor>1.0</OrbitalVisitor>
@@ -460,18 +508,15 @@
         <applyCaravanVisibility>true</applyCaravanVisibility>
       </li>
       <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_ThreatCycle">
+      <li Class="StorytellerCompProperties_OnOffCycle">
         <allowedTargetTypes>
           <li>Map_RaidBeacon</li>
         </allowedTargetTypes>
-        <threatOffDays>0.8</threatOffDays>
-        <threatOnDays>0.6</threatOnDays>
-        <minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
-        <minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
-        <mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>  <!-- effectively disabled -->
-        <mtbDaysThreatBig>0.3</mtbDaysThreatBig>
-        <threatSmallCategory>RaidBeacon</threatSmallCategory>
-        <threatBigCategory>RaidBeacon</threatBigCategory>
+        <offDays>0.5</offDays>
+        <onDays>1.0</onDays>
+        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
+        <numIncidentsRange>1~2</numIncidentsRange>
+        <incidentCategory>RaidBeacon</incidentCategory>
       </li>
     </comps>
   </StorytellerDef>
@@ -504,18 +549,15 @@
         </mtbDaysFactorByDaysPassedCurve>
       </li>
       <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_ThreatCycle">
+      <li Class="StorytellerCompProperties_OnOffCycle">
         <allowedTargetTypes>
           <li>Map_RaidBeacon</li>
         </allowedTargetTypes>
-        <threatOffDays>0.8</threatOffDays>
-        <threatOnDays>0.6</threatOnDays>
-        <minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
-        <minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
-        <mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>  <!-- effectively disabled -->
-        <mtbDaysThreatBig>0.3</mtbDaysThreatBig>
-        <threatSmallCategory>RaidBeacon</threatSmallCategory>
-        <threatBigCategory>RaidBeacon</threatBigCategory>
+        <offDays>0.5</offDays>
+        <onDays>1.0</onDays>
+        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
+        <numIncidentsRange>1~2</numIncidentsRange>
+        <incidentCategory>RaidBeacon</incidentCategory>
       </li>
     </comps>
   </StorytellerDef>
