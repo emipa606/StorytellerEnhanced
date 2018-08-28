@@ -22,10 +22,10 @@ Nora doesn't give much about telling a story, she won't make any incidents and j
 ## New difficulties
 
 #### Murderous
-Enemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer.
+Murderous as the name says it all. Enemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer. For those who love the unwinnable fight against hordes of bloodthirsty monsters.
 
 #### Post-Apocalyptic
-The main challenge comes from very few resources on top of a number if enemies trying to steal the bit of food you could get.
+The main challenge comes from very few resources combined with a large number of enemies who try to steal the last bit of food you could harvest from this destroyed and polluted world. For those who want an alternative challenge to just raid size. This is a true challenge of you vs the world.
 
 #### Spoiled Life
-Pawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy.
+Pawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy. For those who want an alternative challenge to just raid size. This is a true challenge of you vs your colonists.
