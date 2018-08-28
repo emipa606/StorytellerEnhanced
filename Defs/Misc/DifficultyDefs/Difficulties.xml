@@ -70,7 +70,6 @@
 		<description>How hard could this be? Very?\n\nPawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy. For those who want an alternative challenge to just raid size.</description>
 		<difficulty>8</difficulty>
 		<threatScale>1.25</threatScale>
-		<raidBeaconThreatMtbFactor>0.8</raidBeaconThreatMtbFactor>
 		<colonistMoodOffset>-15</colonistMoodOffset>
 		<tradePriceFactorLoss>0.2</tradePriceFactorLoss>
 		<cropYieldFactor>0.8</cropYieldFactor>
