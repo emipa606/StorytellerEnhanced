@@ -27,13 +27,12 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/IncidentDef[defName = "ToxicFallout"]/durationDays</xpath>
-		<value>
-			<durationDays>
-				<min>3</min>
-				<max>15</max>
-			</durationDays>
-		</value>
+		<xpath>/Defs/IncidentDef[defName="AnimalInsanitySingle"]/baseChance/text()</xpath>
+		<value>6</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/IncidentDef[defName="AnimalInsanitySingle"]/minRefireDays/text()</xpath>
+		<value>0</value>
 	</Operation>
 	
 </Patch>
