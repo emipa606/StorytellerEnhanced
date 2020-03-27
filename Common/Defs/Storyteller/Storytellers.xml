@@ -107,16 +107,17 @@
         </categoryWeights>
       </li>
       <!-- Home special threats -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>RaidBeacon</category>
+      <li Class="StorytellerCompProperties_ThreatsGenerator">
         <allowedTargetTags>
           <li>Map_RaidBeacon</li>
         </allowedTargetTags>
-        <onDays>1.0</onDays>
-        <offDays>0.5</offDays>
-        <minSpacingDays>0.04</minSpacingDays>
-        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
-        <numIncidentsRange>1~2</numIncidentsRange>
+        <parms>
+          <allowedThreats>Raids</allowedThreats>
+          <onDays>1.0</onDays>
+          <offDays>0.5</offDays>
+          <minSpacingDays>0.04</minSpacingDays>
+          <numIncidentsRange>1~2</numIncidentsRange>
+        </parms>
       </li>
       <!-- Home misc -->
       <li Class="StorytellerCompProperties_CategoryMTB">
@@ -203,10 +204,9 @@
           <li>Map_TempIncident</li>
         </allowedTargetTags>
       </li>
-      <!-- World -->
-      <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>WorldQuest</category>
+      <!-- Quests -->
+      <li Class="StorytellerCompProperties_RandomQuest">
+        <category>GiveQuest</category>
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
@@ -308,16 +308,17 @@
 		</categoryWeights>
 	  </li>
       <!-- Home special threats -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>RaidBeacon</category>
+      <li Class="StorytellerCompProperties_ThreatsGenerator">
         <allowedTargetTags>
           <li>Map_RaidBeacon</li>
         </allowedTargetTags>
-        <onDays>1.0</onDays>
-        <offDays>0.5</offDays>
-        <minSpacingDays>0.04</minSpacingDays>
-        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
-        <numIncidentsRange>1~2</numIncidentsRange>
+        <parms>
+          <allowedThreats>Raids</allowedThreats>
+          <onDays>1.0</onDays>
+          <offDays>0.5</offDays>
+          <minSpacingDays>0.04</minSpacingDays>
+          <numIncidentsRange>1~2</numIncidentsRange>
+        </parms>
       </li>
       <!-- Home misc -->
       <li Class="StorytellerCompProperties_CategoryMTB">
@@ -404,10 +405,9 @@
           <li>Map_TempIncident</li>
         </allowedTargetTags>
       </li>
-      <!-- World -->
-      <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>WorldQuest</category>
+      <!-- Quests -->
+      <li Class="StorytellerCompProperties_RandomQuest">
+        <category>GiveQuest</category>
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
@@ -551,16 +551,17 @@
         <minDaysPassed>0</minDaysPassed>
       </li>
       <!-- Home special threats -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>RaidBeacon</category>
+      <li Class="StorytellerCompProperties_ThreatsGenerator">
         <allowedTargetTags>
           <li>Map_RaidBeacon</li>
         </allowedTargetTags>
-        <onDays>1.0</onDays>
-        <offDays>0.5</offDays>
-        <minSpacingDays>0.04</minSpacingDays>
-        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
-        <numIncidentsRange>1~2</numIncidentsRange>
+        <parms>
+          <allowedThreats>Raids</allowedThreats>
+          <onDays>1.0</onDays>
+          <offDays>0.5</offDays>
+          <minSpacingDays>0.04</minSpacingDays>
+          <numIncidentsRange>1~2</numIncidentsRange>
+        </parms>
       </li>
       <!-- Home misc -->
       <li Class="StorytellerCompProperties_CategoryMTB">
@@ -629,10 +630,9 @@
           <li>Map_TempIncident</li>
         </allowedTargetTags>
       </li>
-      <!-- World -->
-      <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>WorldQuest</category>
+      <!-- Quests -->
+      <li Class="StorytellerCompProperties_RandomQuest">
+        <category>GiveQuest</category>
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
@@ -673,16 +673,17 @@
     <listOrder>44</listOrder>
     <comps>
       <!-- Home special threats -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>RaidBeacon</category>
+      <li Class="StorytellerCompProperties_ThreatsGenerator">
         <allowedTargetTags>
           <li>Map_RaidBeacon</li>
         </allowedTargetTags>
-        <onDays>1.0</onDays>
-        <offDays>0.5</offDays>
-        <minSpacingDays>0.04</minSpacingDays>
-        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
-        <numIncidentsRange>1~2</numIncidentsRange>
+        <parms>
+          <allowedThreats>Raids</allowedThreats>
+          <onDays>1.0</onDays>
+          <offDays>0.5</offDays>
+          <minSpacingDays>0.04</minSpacingDays>
+          <numIncidentsRange>1~2</numIncidentsRange>
+        </parms>
       </li>
       <!-- Ally/neutral interaction -->
       <li Class="StorytellerCompProperties_FactionInteraction">
@@ -719,10 +720,9 @@
           <li>Map_PlayerHome</li>
         </allowedTargetTags>
       </li>
-      <!-- World -->
-      <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>WorldQuest</category>
+      <!-- Quests -->
+      <li Class="StorytellerCompProperties_RandomQuest">
+        <category>GiveQuest</category>
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>

@@ -1,18 +1,12 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
 using Verse;
-using UnityEngine;
 
 namespace StorytellerEnhanced
 {
 
     [HarmonyPatch(typeof(Need_Joy))]
-    [HarmonyPatch("FallPerInterval", PropertyMethod.Getter)]
+    [HarmonyPatch("FallPerInterval", MethodType.Getter)]
     public class Harmony_Need_Joy_FallPerInterval
     {
 

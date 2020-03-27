@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Storyteller Enhanced</name>
-	<author>Lanilor</author>
-	<url>https://github.com/Lanilor/Storyteller-Enhanced</url>
-	<targetVersion>1.0.2096</targetVersion>
+	<author>Neptimus7</author>
+	<url>https://github.com/JonathanTroyer/Storyteller-Enhanced</url>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>neptimus7.storytellerenhanced</packageId>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
 	<description>
-&lt;size=20&gt;Storyteller Enhanced&lt;/size&gt;
+Storyteller Enhanced
 
 This mod adds four new storytellers to the game to extend the vanilla storytellers. It also adds extra difficulties above just increasing raid-size with the goal to create new challenges and gameplay experience.
 
