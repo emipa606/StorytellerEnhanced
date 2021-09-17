@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-	<identifier>StorytellerEnhanced</identifier>
-	<version>1.2</version>
-	<showCrossPromotions>true</showCrossPromotions>
-	<manifestUri>https://raw.githubusercontent.com/Lanilor/Storyteller-Enhanced/master/About/Manifest.xml</manifestUri>
-	<downloadUri>https://github.com/Lanilor/Storyteller-Enhanced/releases/latest</downloadUri>
+  <identifier>StorytellerEnhanced</identifier>
+  <version>1.0.1.0</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/StorytellerEnhanced/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/StorytellerEnhanced/releases</downloadUri>
 </Manifest>
+
+

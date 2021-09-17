@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DifficultyDef>
+    <defName>SE_Murderous</defName>
+    <label>Murderous</label>
+    <description>Murderous as the name says it all.\n\nEnemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer. For those who love the unwinnable fight against hordes of bloodthirsty monsters.</description>
+    <difficulty>6</difficulty>
+    <threatScale>2.8</threatScale>
+    <colonistMoodOffset>-15</colonistMoodOffset>
+    <tradePriceFactorLoss>0.20</tradePriceFactorLoss>
+    <cropYieldFactor>0.9</cropYieldFactor>
+    <mineYieldFactor>0.9</mineYieldFactor>
+    <researchSpeedFactor>0.9</researchSpeedFactor>
+    <diseaseIntervalFactor>0.9</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>1.5</enemyReproductionRateFactor>
+    <playerPawnInfectionChanceFactor>1.2</playerPawnInfectionChanceFactor>
+    <manhunterChanceOnDamageFactor>1.8</manhunterChanceOnDamageFactor>
+    <deepDrillInfestationChanceFactor>1.6</deepDrillInfestationChanceFactor>
+    <foodPoisonChanceFactor>1.1</foodPoisonChanceFactor>
+    <maintenanceCostFactor>1</maintenanceCostFactor>
+    <enemyDeathOnDownedChanceFactor>1.3</enemyDeathOnDownedChanceFactor>
+    <adaptationGrowthRateFactorOverZero>1.25</adaptationGrowthRateFactorOverZero>
+    <threatsGeneratorThreatCountFactor>1.3</threatsGeneratorThreatCountFactor>
+    <modExtensions>
+      <li Class="StorytellerEnhanced.ModExt_Difficulty">
+        <butcherProductFactor>0.9</butcherProductFactor>
+        <needRestFallFactor>1.1</needRestFallFactor>
+        <needJoyFallFactor>1.1</needJoyFallFactor>
+        <damageFactorOnPlayer>1.3</damageFactorOnPlayer>
+        <damageFactorOnOther>0.7</damageFactorOnOther>
+      </li>
+    </modExtensions>
+  </DifficultyDef>
+  <DifficultyDef>
+    <defName>SE_PostApocalyptic</defName>
+    <label>Post-Apocalyptic</label>
+    <description>Hard as trying to find water in the deserts.\n\nThe main challenge comes from very few resources combined with a large number of enemies who try to steal the last bit of food you could harvest from this destroyed and polluted world. For those who want an alternative challenge to just raid size. This is a true challenge of you vs the world.</description>
+    <difficulty>7</difficulty>
+    <threatScale>1.45</threatScale>
+    <colonistMoodOffset>-10</colonistMoodOffset>
+    <tradePriceFactorLoss>0.10</tradePriceFactorLoss>
+    <cropYieldFactor>0.5</cropYieldFactor>
+    <mineYieldFactor>0.5</mineYieldFactor>
+    <researchSpeedFactor>0.7</researchSpeedFactor>
+    <diseaseIntervalFactor>2.0</diseaseIntervalFactor>
+    <playerPawnInfectionChanceFactor>1.6</playerPawnInfectionChanceFactor>
+    <manhunterChanceOnDamageFactor>1.2</manhunterChanceOnDamageFactor>
+    <deepDrillInfestationChanceFactor>1.3</deepDrillInfestationChanceFactor>
+    <foodPoisonChanceFactor>1.3</foodPoisonChanceFactor>
+    <maintenanceCostFactor>1.1</maintenanceCostFactor>
+    <enemyDeathOnDownedChanceFactor>1.1</enemyDeathOnDownedChanceFactor>
+    <adaptationGrowthRateFactorOverZero>0.9</adaptationGrowthRateFactorOverZero>
+    <threatsGeneratorThreatCountFactor>0.9</threatsGeneratorThreatCountFactor>
+    <modExtensions>
+      <li Class="StorytellerEnhanced.ModExt_Difficulty">
+        <butcherProductFactor>0.5</butcherProductFactor>
+        <moodImpactFactorNegative>0.9</moodImpactFactorNegative>
+        <moodImpactFactorPositive>0.9</moodImpactFactorPositive>
+        <needRestFallFactor>1.1</needRestFallFactor>
+        <needJoyFallFactor>0.8</needJoyFallFactor>
+      </li>
+    </modExtensions>
+  </DifficultyDef>
+  <DifficultyDef>
+    <defName>SE_SpoiledLife</defName>
+    <label>Spoiled Life</label>
+    <description>How hard could this be? Very!\n\nPawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy. For those who want an alternative challenge to just raid size. This is a true challenge of you vs your colonists.</description>
+    <difficulty>8</difficulty>
+    <threatScale>1.25</threatScale>
+    <colonistMoodOffset>-20</colonistMoodOffset>
+    <tradePriceFactorLoss>0.2</tradePriceFactorLoss>
+    <cropYieldFactor>0.8</cropYieldFactor>
+    <mineYieldFactor>0.9</mineYieldFactor>
+    <researchSpeedFactor>0.7</researchSpeedFactor>
+    <diseaseIntervalFactor>1.4</diseaseIntervalFactor>
+    <playerPawnInfectionChanceFactor>1.1</playerPawnInfectionChanceFactor>
+    <foodPoisonChanceFactor>1.3</foodPoisonChanceFactor>
+    <maintenanceCostFactor>1</maintenanceCostFactor>
+    <enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+    <adaptationGrowthRateFactorOverZero>0.9</adaptationGrowthRateFactorOverZero>
+    <threatsGeneratorThreatCountFactor>0.9</threatsGeneratorThreatCountFactor>
+    <modExtensions>
+      <li Class="StorytellerEnhanced.ModExt_Difficulty">
+        <workSpeedGlobalFactor>0.7</workSpeedGlobalFactor>
+        <butcherProductFactor>0.8</butcherProductFactor>
+        <moodImpactFactorNegative>1.6</moodImpactFactorNegative>
+        <moodImpactFactorPositive>0.7</moodImpactFactorPositive>
+        <needRestFallFactor>1.5</needRestFallFactor>
+        <needJoyFallFactor>2.2</needJoyFallFactor>
+      </li>
+    </modExtensions>
+  </DifficultyDef>
+</Defs>

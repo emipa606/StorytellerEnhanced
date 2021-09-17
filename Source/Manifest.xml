@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Manifest>
+  <identifier>StorytellerEnhanced</identifier>
+  <version>1.2</version>
+  <showCrossPromotions>true</showCrossPromotions>
+  <manifestUri>https://raw.githubusercontent.com/Lanilor/Storyteller-Enhanced/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/Lanilor/Storyteller-Enhanced/releases/latest</downloadUri>
+</Manifest>
