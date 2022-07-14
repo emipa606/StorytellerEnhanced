@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Storyteller Enhanced (Continued)</name>
   <packageId>Mlie.StorytellerEnhanced</packageId>
@@ -33,6 +33,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2037383952
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/StorytellerEnhanced][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
     [/tr]
 [/table]
 	
@@ -71,10 +75,6 @@ Matt is famous for his mood swings. You will have a good time with balanced even
 [b]Nora Nothing[/b]
 Nora doesn't give much about telling a story, she won't make any incidents and just watches you playing. Use her if you want to write your own story or for a slightly different challenge in remote regions.
 
-[h1]Support me on Ko-fi[/h1]
-If you enjoy my mods, please consider supporting me on Ko-fi. It really helps me motivating myself to keep on working on my projects. Thank you.
-[url=https://ko-fi.com/F1F6JCJV][img]http://i.imgur.com/YE81xKZ.png[/img][/url]
-
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
@@ -86,4 +86,3 @@ If you enjoy my mods, please consider supporting me on Ko-fi. It really helps me
 [/list]
 </description>
 </ModMetaData>
-
