@@ -1,19 +1,18 @@
 ﻿using HarmonyLib;
 using RimWorld;
 
-namespace StorytellerEnhanced
+namespace StorytellerEnhanced;
+
+[HarmonyPatch(typeof(Need_Joy))]
+[HarmonyPatch("FallPerInterval", MethodType.Getter)]
+public class Harmony_Need_Joy_FallPerInterval
 {
-    [HarmonyPatch(typeof(Need_Joy))]
-    [HarmonyPatch("FallPerInterval", MethodType.Getter)]
-    public class Harmony_Need_Joy_FallPerInterval
+    public static void Postfix(ref float __result)
     {
-        public static void Postfix(ref float __result)
+        var extDiff = HarmonySetup.CurrentDifficultyDef?.GetModExtension<ModExt_Difficulty>();
+        if (extDiff != null)
         {
-            var extDiff = HarmonySetup.CurrentDifficultyDef?.GetModExtension<ModExt_Difficulty>();
-            if (extDiff != null)
-            {
-                __result *= extDiff.needJoyFallFactor;
-            }
+            __result *= extDiff.needJoyFallFactor;
         }
     }
 }

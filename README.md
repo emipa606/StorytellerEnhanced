@@ -50,12 +50,6 @@ Matt is famous for his mood swings. You will have a good time with balanced even
 **Nora Nothing**
 Nora doesn't give much about telling a story, she won't make any incidents and just watches you playing. Use her if you want to write your own story or for a slightly different challenge in remote regions.
 
-# Support me on Ko-fi
-
-If you enjoy my mods, please consider supporting me on Ko-fi. It really helps me motivating myself to keep on working on my projects. Thank you.
-https://ko-fi.com/F1F6JCJV]![Image](http://i.imgur.com/YE81xKZ.png)
-
-
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
@@ -66,6 +60,7 @@ https://ko-fi.com/F1F6JCJV]![Image](http://i.imgur.com/YE81xKZ.png)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
