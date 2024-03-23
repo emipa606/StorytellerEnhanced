@@ -3,6 +3,8 @@
   <Excluded>
     <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\StorytellerEnhanced\.gitignore</exclude>
     <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\StorytellerEnhanced\.git</exclude>
+    <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\StorytellerEnhanced\.gitmodules</exclude>
+    <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\StorytellerEnhanced\.gitattributes</exclude>
     <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\StorytellerEnhanced\Source</exclude>
   </Excluded>
 </Configuration>

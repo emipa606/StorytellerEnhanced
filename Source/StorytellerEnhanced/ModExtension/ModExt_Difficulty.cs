@@ -4,16 +4,16 @@ namespace StorytellerEnhanced;
 
 public class ModExt_Difficulty : DefModExtension
 {
-    public float butcherProductFactor = 1f;
-    public float damageFactorOnOther = 1f;
+    public readonly float butcherProductFactor = 1f;
+    public readonly float damageFactorOnOther = 1f;
 
-    public float damageFactorOnPlayer = 1f;
+    public readonly float damageFactorOnPlayer = 1f;
 
-    public float moodImpactFactorNegative = 1f;
-    public float moodImpactFactorPositive = 1f;
-    public float needJoyFallFactor = 1f;
+    public readonly float moodImpactFactorNegative = 1f;
+    public readonly float moodImpactFactorPositive = 1f;
+    public readonly float needJoyFallFactor = 1f;
 
-    public float needRestFallFactor = 1f;
+    public readonly float needRestFallFactor = 1f;
 
-    public float workSpeedGlobalFactor = 1f;
+    public readonly float workSpeedGlobalFactor = 1f;
 }
