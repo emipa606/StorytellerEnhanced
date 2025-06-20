@@ -10,7 +10,9 @@ internal class HarmonySetup
 {
     private static DifficultyDef currentDifficultyDef;
 
-    private static int LastUpdated;
+    private static int lastUpdated;
+
+    private static readonly FieldInfo defFieldInfo = AccessTools.Field(typeof(Storyteller), "def");
 
 
     static HarmonySetup()
@@ -24,13 +26,13 @@ internal class HarmonySetup
         get
         {
             if (currentDifficultyDef != null &&
-                (LastUpdated == 0 || LastUpdated < GenTicks.TicksGame - GenTicks.TickRareInterval))
+                (lastUpdated == 0 || lastUpdated < GenTicks.TicksGame - GenTicks.TickRareInterval))
             {
                 return currentDifficultyDef;
             }
 
-            LastUpdated = GenTicks.TicksGame;
-            var difficultyDef = Traverse.Create(Find.Storyteller).Field("def").GetValue();
+            lastUpdated = GenTicks.TicksGame;
+            var difficultyDef = defFieldInfo.GetValue(Find.Storyteller);
             if (difficultyDef is DifficultyDef difficulty)
             {
                 currentDifficultyDef = difficulty;

@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="StorytellerEnhanced/Storyteller-Enhanced.csproj" />
+</Solution>

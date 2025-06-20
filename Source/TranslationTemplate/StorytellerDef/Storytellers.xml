@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Calista Complex -->
+  <CalistaComplex.label>Calista Complex</CalistaComplex.label>
+  <!-- EN: Calista creates story events on a more complex schedule. She likes to see how you can handle different situations. Expect the unexpected. -->
+  <CalistaComplex.description>Calista creates story events on a more complex schedule. She likes to see how you can handle different situations. Expect the unexpected.</CalistaComplex.description>
+  <!-- EN: Matt Moody -->
+  <MattMoody.label>Matt Moody</MattMoody.label>
+  <!-- EN: Matt is famous for his mood swings. You will have a good time with balanced events, but occasionally when he gets in the mood, he makes your life a living hell. -->
+  <MattMoody.description>Matt is famous for his mood swings. You will have a good time with balanced events, but occasionally when he gets in the mood, he makes your life a living hell.</MattMoody.description>
+  <!-- EN: Nora Nothing -->
+  <NoraNothing.label>Nora Nothing</NoraNothing.label>
+  <!-- EN: Nora doesn't give much about telling a story, she won't make any incidents and just watches you playing. Use her if you want to write your own story or for a slightly different challenge in remote regions. -->
+  <NoraNothing.description>Nora doesn't give much about telling a story, she won't make any incidents and just watches you playing. Use her if you want to write your own story or for a slightly different challenge in remote regions.</NoraNothing.description>
+  <!-- EN: Raya Relaxed -->
+  <RayaRelaxed.label>Raya Relaxed</RayaRelaxed.label>
+  <!-- EN: Raya creates a somewhat relaxing story for you. Sometimes she adds an extra event to give you a little surprise, but thats more often a nice gift or to spice up your day than a threat. -->
+  <RayaRelaxed.description>Raya creates a somewhat relaxing story for you. Sometimes she adds an extra event to give you a little surprise, but thats more often a nice gift or to spice up your day than a threat.</RayaRelaxed.description>
+</LanguageData>

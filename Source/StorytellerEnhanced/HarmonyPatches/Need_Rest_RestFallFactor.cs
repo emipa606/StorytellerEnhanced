@@ -3,9 +3,8 @@ using RimWorld;
 
 namespace StorytellerEnhanced;
 
-[HarmonyPatch(typeof(Need_Rest))]
-[HarmonyPatch("RestFallFactor", MethodType.Getter)]
-public class Harmony_Need_Rest_RestFallFactor
+[HarmonyPatch(typeof(Need_Rest), "RestFallFactor", MethodType.Getter)]
+public class Need_Rest_RestFallFactor
 {
     public static void Postfix(ref float __result)
     {

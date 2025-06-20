@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Murderous -->
+  <SE_Murderous.label>Murderous</SE_Murderous.label>
+  <!-- EN: Murderous as the name says it all.\n\nEnemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer. For those who love the unwinnable fight against hordes of bloodthirsty monsters. -->
+  <SE_Murderous.description>Murderous as the name says it all.
+
+Enemies are plentiful, colonists are angry, prices are worse and of cause everything bad that 'Extreme' can offer. For those who love the unwinnable fight against hordes of bloodthirsty monsters.</SE_Murderous.description>
+  <!-- EN: Post-Apocalyptic -->
+  <SE_PostApocalyptic.label>Post-Apocalyptic</SE_PostApocalyptic.label>
+  <!-- EN: Hard as trying to find water in the deserts.\n\nThe main challenge comes from very few resources combined with a large number of enemies who try to steal the last bit of food you could harvest from this destroyed and polluted world. For those who want an alternative challenge to just raid size. This is a true challenge of you vs the world. -->
+  <SE_PostApocalyptic.description>Hard as trying to find water in the deserts.
+
+The main challenge comes from very few resources combined with a large number of enemies who try to steal the last bit of food you could harvest from this destroyed and polluted world. For those who want an alternative challenge to just raid size. This is a true challenge of you vs the world.</SE_PostApocalyptic.description>
+  <!-- EN: Spoiled Life -->
+  <SE_SpoiledLife.label>Spoiled Life</SE_SpoiledLife.label>
+  <!-- EN: How hard could this be? Very!\n\nPawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy. For those who want an alternative challenge to just raid size. This is a true challenge of you vs your colonists. -->
+  <SE_SpoiledLife.description>How hard could this be? Very!
+
+Pawns are spoiled from glitterworld life. They have less motivation to work, need more recreation time and are harder to keep happy. For those who want an alternative challenge to just raid size. This is a true challenge of you vs your colonists.</SE_SpoiledLife.description>
+</LanguageData>

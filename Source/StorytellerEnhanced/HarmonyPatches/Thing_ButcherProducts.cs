@@ -3,9 +3,8 @@ using Verse;
 
 namespace StorytellerEnhanced;
 
-[HarmonyPatch(typeof(Pawn))]
-[HarmonyPatch("ButcherProducts")]
-public class Harmony_Pawn_ButcherProducts
+[HarmonyPatch(typeof(Thing), nameof(Thing.ButcherProducts))]
+public class Thing_ButcherProducts
 {
     public static void Prefix(ref float efficiency)
     {

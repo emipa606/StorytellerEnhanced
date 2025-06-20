@@ -4,9 +4,8 @@ using Verse;
 
 namespace StorytellerEnhanced;
 
-[HarmonyPatch(typeof(Thing))]
-[HarmonyPatch("TakeDamage")]
-public class Harmony_Thing_TakeDamage
+[HarmonyPatch(typeof(Thing), nameof(Thing.TakeDamage))]
+public class Thing_TakeDamage
 {
     public static void Prefix(Thing __instance, ref DamageInfo dinfo)
     {

@@ -3,9 +3,8 @@ using RimWorld;
 
 namespace StorytellerEnhanced;
 
-[HarmonyPatch(typeof(StatWorker))]
-[HarmonyPatch("GetValueUnfinalized")]
-public class Harmony_StatWorker_GetValueUnfinalized
+[HarmonyPatch(typeof(StatWorker), nameof(StatWorker.GetValueUnfinalized))]
+public class StatWorker_GetValueUnfinalized
 {
     public static void Postfix(ref float __result, StatDef ___stat)
     {
