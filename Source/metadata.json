@@ -3,10 +3,15 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-20T19:08:48.7659613+02:00",
+  "LastXmlCleaning": "2025-07-04T23:01:44.8604428+02:00",
   "SocialImageSet": true,
   "SearchTags": [
     " gameplay",
     " difficulty"
-  ]
+  ],
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 6298.0,
+  "LinesOfXML": 36364.0
 }
