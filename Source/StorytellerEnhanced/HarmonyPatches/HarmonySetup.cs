@@ -12,18 +12,18 @@ internal class HarmonySetup
 
     static HarmonySetup()
     {
-        var harmony = new Harmony("rimworld.neptimus7.storytellerenhanced");
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("rimworld.neptimus7.storytellerenhanced").PatchAll(Assembly.GetExecutingAssembly());
     }
 
     public static ModExt_Difficulty CurrentDifficultyDefExtension
     {
         get
         {
-            if (Find.Storyteller.difficultyDef == currentDifficultyDef) 
+            if (Find.Storyteller.difficultyDef == currentDifficultyDef)
             {
                 return field;
             }
+
             currentDifficultyDef = Find.Storyteller.difficultyDef;
             field = currentDifficultyDef?.GetModExtension<ModExt_Difficulty>();
             return field;

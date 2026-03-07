@@ -1,15 +1,15 @@
 # [Storyteller Enhanced (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2604427827)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Lanilors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1416695246
 based on Neptimus7s update
 https://steamcommunity.com/sharedfiles/filedetails/?id=2037383952
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # New difficulties with a bunch of custom attributes to create new challenges and unique gameplay experiences!
 
@@ -49,13 +49,13 @@ Matt is famous for his mood swings. You will have a good time with balanced even
 **Nora Nothing**
 Nora doesn't give much about telling a story, she won't make any incidents and just watches you playing. Use her if you want to write your own story or for a slightly different challenge in remote regions.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -63,4 +63,4 @@ Nora doesn't give much about telling a story, she won't make any incidents and j
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/StorytellerEnhanced?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2604427827) | tags:  gameplay,  difficulty
+[![Image](https://img.shields.io/github/v/release/emipa606/StorytellerEnhanced?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2604427827) | tags: difficulty, gameplay

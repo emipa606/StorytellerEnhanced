@@ -1,5 +1,8 @@
 # Changelog for StorytellerEnhanced
 
+1.6.2 - Performance improvements, thanks to Halicade
+
+
 1.6.1 - Fixed proper gitignore
 
 

@@ -3,4 +3,19 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="StorytellerEnhanced/Storyteller-Enhanced.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/Misc/DifficultyDefs/">
+    <File Path="../1.6/Defs/Misc/DifficultyDefs/Difficulties.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Patches/">
+    <File Path="../1.6/Patches/Storyteller_Incidents_Map.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/Storyteller/">
+    <File Path="../1.6/Defs/Storyteller/Storytellers.xml" />
+  </Folder>
 </Solution>
