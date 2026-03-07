@@ -9,7 +9,7 @@ public class Thing_TakeDamage
 {
     public static void Prefix(Thing __instance, ref DamageInfo dinfo)
     {
-        var extDiff = HarmonySetup.CurrentDifficultyDef?.GetModExtension<ModExt_Difficulty>();
+        var extDiff = HarmonySetup.CurrentDifficultyDefExtension;
         if (extDiff == null)
         {
             return;
