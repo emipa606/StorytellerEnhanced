@@ -10,8 +10,6 @@ internal class HarmonySetup
 {
     private static DifficultyDef currentDifficultyDef;
 
-    private static int lastUpdated;
-
     static HarmonySetup()
     {
         var harmony = new Harmony("rimworld.neptimus7.storytellerenhanced");
@@ -22,12 +20,10 @@ internal class HarmonySetup
     {
         get
         {
-            if (currentDifficultyDef != null &&
-                (lastUpdated == 0 || lastUpdated > GenTicks.TicksGame - GenTicks.TickRareInterval))
+            if (Find.Storyteller.difficultyDef == currentDifficultyDef) 
             {
                 return field;
             }
-            lastUpdated = GenTicks.TicksGame;
             currentDifficultyDef = Find.Storyteller.difficultyDef;
             field = currentDifficultyDef?.GetModExtension<ModExt_Difficulty>();
             return field;
