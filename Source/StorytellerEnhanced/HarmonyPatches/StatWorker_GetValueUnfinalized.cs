@@ -13,7 +13,7 @@ public class StatWorker_GetValueUnfinalized
             return;
         }
 
-        var extDiff = HarmonySetup.CurrentDifficultyDef?.GetModExtension<ModExt_Difficulty>();
+        var extDiff = HarmonySetup.CurrentDifficultyDefExtension;
         if (extDiff != null)
         {
             __result *= extDiff.workSpeedGlobalFactor;
