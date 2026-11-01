@@ -6,7 +6,7 @@ using Verse;
 namespace StorytellerEnhanced;
 
 [StaticConstructorOnStartup]
-internal class HarmonySetup
+internal static class HarmonySetup
 {
     private static DifficultyDef currentDifficultyDef;
 

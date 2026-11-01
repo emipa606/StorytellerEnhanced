@@ -5,7 +5,7 @@ using Verse;
 namespace StorytellerEnhanced;
 
 [HarmonyPatch(typeof(Thing), nameof(Thing.TakeDamage))]
-public class Thing_TakeDamage
+public static class Thing_TakeDamage
 {
     public static void Prefix(Thing __instance, ref DamageInfo dinfo)
     {

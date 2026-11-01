@@ -4,7 +4,7 @@ using RimWorld;
 namespace StorytellerEnhanced;
 
 [HarmonyPatch(typeof(Thought), nameof(Thought.MoodOffset))]
-public class Thought_MoodOffset
+public static class Thought_MoodOffset
 {
     public static void Postfix(ref float __result)
     {

@@ -1,43 +1,52 @@
-# GitHub Copilot Instructions for Storyteller Enhanced (Continued)
+# GitHub Copilot Instructions for Storyteller Enhanced (Continued) Mod
 
 ## Mod Overview and Purpose
-Storyteller Enhanced is an updated version of the mod originally created by Lanilor, with Neptimus7's improvements. The mod aims to enhance the RimWorld experience by introducing new difficulties and storytellers with unique attributes and styles that bring a fresh set of challenges and gameplay experiences.
+Storyteller Enhanced (Continued) is a RimWorld mod that updates Lanilors mod based on Neptimus7's update. The mod introduces new difficulties and storytellers to enhance the Rimworld experience by improving the threat cycles and story event triggers. It offers unique gameplay experiences with various challenges and customizable attributes.
 
 ## Key Features and Systems
-- **New Storytellers**: Four unique storytellers—Calista Complex, Raya Relaxed, Matt Moody, and Nora Nothing—each offering different styles of gameplay from unexpected challenges to a relaxed storytelling environment.
-- **Enhanced Difficulty Levels**: The mod introduces new difficulties such as Murderous, Post-Apocalyptic, and Spoiled Life, each providing unique challenges that modify resource availability, threat levels, and colonist behavior.
-  - **Murderous**: Intense with frequent and severe threats.
-  - **Post-Apocalyptic**: Limited resources mixed with high enemy pressure.
-  - **Spoiled Life**: Pawns demand more luxury and provide less productivity.
+- **New Difficulties**: Four new difficulties (Murderous, Post-Apocalyptic, Spoiled Life) are introduced to increase the challenge level.
+- **Enhanced Storytellers**: Four storytellers (Calista Complex, Raya Relaxed, Matt Moody, Nora Nothing) with unique styles and event generation patterns.
+- **Complex Threat Cycles**: More varied and less predictable threat cycles compared to vanilla storytellers.
+- **Custom Attributes**: Custom attributes to create new challenges and unique gameplay experiences.
 
 ## Coding Patterns and Conventions
-- **C# Class Definitions and Purpose**:
-  - Classes follow the nomenclature of `Need_<RelatedFunction>`, `Thing_<RelatedFunction>`, `StatWorker_<FunctionName>`, etc.
-  - All C# classes are crafted to serve specific needs such as managing fall factors for needs (`Need_Joy_FallPerInterval`, `Need_Rest_RestFallFactor`) as well as overriding product derivations (`Pawn_ButcherProducts`, `Thing_ButcherProducts`)
-- **Conventions**:
-  - Internal classes are generally used for setup and integration, leveraging the `HarmonySetup` class for patching purposes with Harmony.
-  - Public classes are used to define new behavior, usually altering existing game systems like need fall rates or stat calculations.
+- **Harmony Patching**: The mod uses Harmony for patching RimWorld's code.
+- **Mod Extensions**: Mod extensions are used to add new attributes and behaviors to RimWorld's existing classes.
+- **XML Defs**: XML files are used to define new difficulties and storytellers.
+- **C# Patches**: C# files contain the logic for Harmony patches.
 
 ## XML Integration
-- **DefModExtension**: `ModExt_Difficulty` is used to extend RimWorld's XML definitions, allowing the introduction of new difficulties with their unique parameters.
+XML files are essential for defining new content in RimWorld. The mod uses XML files for:
+- **DifficultyDefs**: Defining new difficulty levels.
+- **Storytellers**: Defining new storytellers with unique event generation patterns.
 
 ## Harmony Patching
-- Harmony is utilized to modify or extend the functionality of the base game. `HarmonySetup.cs` is a central piece in setting up these patches.
-- Ensure Harmony prefixes and postfixes are used responsibly to avoid conflicts, especially when dealing with core game mechanics that influence storyteller and difficulty behaviors.
+Harmony is used to patch RimWorld's code to modify its behavior. The mod includes several Harmony patches:
+- **HarmonySetup.cs**: Contains the initialization logic for Harmony patches.
+- **Need_Joy_FallPerInterval.cs**: Patches the `FallPerInterval` method of the `Need_Joy` class.
+- **Need_Rest_RestFallFactor.cs**: Patches the `RestFallFactor` property of the `Need_Rest` class.
+- **Pawn_ButcherProducts.cs**: Patches the `ButcherProducts` method of the `Pawn` class.
 
 ## Suggestions for Copilot
-- Given the nature of RimWorld's modding environment, ensure generated methods are effective at handling custom logics and extensions via DefMod and Harmony.
-- Use extensive inline comments to document the purpose of patches or class behaviors, especially when modifying fundamental storyteller events.
-- Encourage Copilot to suggest pattern-based solutions, particularly useful when dealing with repeated or similar methods dealing with stats and needs.
-- Copilot should be guided to suggest error-handling code blocks effectively, especially in the realms of resource manipulation and event triggers.
+- **Use XML Snippets**: When generating XML files, suggest snippets that follow the RimWorld XML schema.
+- **Harmony Patch Templates**: Provide templates for Harmony patches to ensure they follow the correct pattern.
+- **Mod Extension Examples**: Show examples of how to create and use mod extensions for adding custom attributes.
+- **Complex Threat Cycle Logic**: Offer guidance on implementing more complex threat cycle logic.
 
-### Troubleshooting & Reporting
-- Users are encouraged to troubleshoot by isolating the mod to check for errors.
-- If issues continue, they should use the Log Uploader for logs or the Discord channel for error reporting. Avoid using discussion threads.
-- Contribute solutions directly to the GitHub repository to assist in communal problem-solving.
+By following these instructions, you can effectively use GitHub Copilot to assist with developing and maintaining the Storyteller Enhanced (Continued) mod.
 
-For improved mod compatibility, maintain a well-sorted mod list using RimSort and ensure dependencies are updated.
+## Project Solution Guidelines
+- Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
+- Use these in-solution XML files as the primary files for reference and modification.
+- The `.github/copilot-instructions.md` file is included in the solution under the `.github` solution folder, so it should be read/modified from within the solution instead of using paths outside the solution. Update this file once only, as it and the parent-path solution reference point to the same file in this workspace.
+- When making functional changes in this mod, ensure the documented features stay in sync with implementation; use the in-solution `.github` copy as the primary file.
+- In the solution is also a project called Assembly-CSharp, containing a read-only version of the decompiled game source, for reference and debugging purposes.
+- For any new documentation, update this copilot-instructions.md file rather than creating separate documentation files.
 
----
 
-This `.github/copilot-instructions.md` provides comprehensive guidance for developers working on enhancing the mod effectively while integrating Copilot suggestions seamlessly.
+## Hard rules (must follow)
+- Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
+- Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
+
